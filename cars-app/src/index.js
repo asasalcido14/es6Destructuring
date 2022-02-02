@@ -1,5 +1,22 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import cars from "./practice";
+
+const [honda, tesla] = cars;
+
+const {
+	speedStats: { topSpeed: hondaTopSpeed },
+} = honda;
+const {
+	speedStats: { topSpeed: teslaTopColour },
+} = tesla;
+
+const {
+	colurByPopularity: [hondaTopColou],
+} = honda;
+const {
+	colurByPopularity: [teslaTopColou],
+} = tesla;
 
 ReactDOM.render(
 	<table>
